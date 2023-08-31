@@ -1,17 +1,20 @@
 # Hello there!
-Welcome to my path-finding visualizer! Obiviously it's inspired from the Clement's original path-finding visualizer. For those who're new to this project, it's visualization tool to visualize classic graph algorithms like Dijsktra, A* and etc. I was fascinated to build my own visualization tool after going through Professor Robert Sedgewick Algorithms course from Princeton University in coursera. I have been working so hard for this project for the last few months, so take you're time to explore the repo .(I came across this feature recently - "1s" project which opens a github repo as it would have in VS Code - by just typing 1s next to the github in the url (https://github1s.com/repo), so you could try it out for better understanding of the structuring of this project)
+Welcome to my path-finding visualizer! Obiviously it's inspired from the Clement's original path-finding visualizer.
+For those who're new to this project, it's visualization tool to visualize classic graph algorithms like Dijsktra, A* and etc. I was fascinated to build my own visualization tool after going through Professor Robert Sedgewick Algorithms course from Princeton University in coursera. 
+I have been working so hard for this project for the last few months, so take you're time to explore the repo .(I came across this feature recently - "1s" project which opens a github repo as it would have in VS Code - by just typing 1s next to the github in the url (https://github1s.com/repo), so you could try it out for better understanding of the structuring of this project)
 
 ## Here is the preview images for my project
 ### Before visualization:
 
+![Screenshot 2021-02-11 224917](https://user-images.githubusercontent.com/58566745/107673174-bff32800-6cbb-11eb-81a7-8e240660369f.jpg)
 
-After visualization(ofcourse I just changed the theme from dark mode to light mode for this image):
+### After visualization(ofcourse I just changed the theme from dark mode to light mode for this image):
 This is the result after executing a maze generation algorithm and path-finding algorithm.
 
+![Screenshot 2021-02-11 225049](https://user-images.githubusercontent.com/58566745/107673376-f3ce4d80-6cbb-11eb-907c-a8255ef9555e.jpg)
 
-
-# Features in the application
-## Algorithms
+## Features in the application
+### Algorithms
 - _Dijsktra_ - Dijkstra's algorithm (or Dijkstra's Shortest Path First algorithm, SPF algorithm) is an algorithm for finding the shortest paths between nodes in a graph, which may represent, for example, road networks. It was conceived by computer scientist Edsger W. Dijkstra in 1956 and published three years later.
 
 - _DFS_ - Depth-first search (DFS) is an algorithm for traversing or searching tree or graph data structures. The algorithm starts at the root node (selecting some arbitrary node as the root node in the case of a graph) and explores as far as possible along each branch before backtracking.
@@ -27,14 +30,22 @@ This is the result after executing a maze generation algorithm and path-finding 
 
 # Getting Started/Installation
 Pretty much the same as the standard react application, so all the usual react-scripts are available to your disposal. So, over here I restricted myself to the instructions to only the essentials.
-
 ## 1. Clone the repository or download the zip
-git clone https://github.com/Sethuram52001/Path-Finding-Visualizer.git
+```
+git clone https://github.com/JaskaranSingh-01/Pathfinder_visualizer.git
+```
+
 ## 2. Install the dependencies
+```
 npm install
+```
+
 ## 3. Start the application
+```
 npm start
+```
+Runs the app in the development mode.
+Open http://localhost:3000 to view it in the browser.
 
-Runs the app in the development mode. Open http://localhost:3000 to view it in the browser.
-
-The page will reload if you make edits. You will also see any lint errors in the console.
+The page will reload if you make edits.
+You will also see any lint errors in the console.
